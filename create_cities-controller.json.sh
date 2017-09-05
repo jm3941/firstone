@@ -26,7 +26,7 @@ cat > cities-controller.json <<EOF
         "containers": [
           {
             "imagePullPolicy": "Always",
-            "image": "quay.io/luhuang/demo:${WERCKER_GIT_COMMIT}",
+            "image": "quay.io/jm3941/demo:${WERCKER_GIT_COMMIT}",
             "name": "cities",
             "ports": [
               {
