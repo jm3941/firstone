@@ -41,3 +41,4 @@ cat > cities-controller.json <<EOF
     }
   }
 }
+EOF
