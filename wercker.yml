@@ -64,4 +64,4 @@ rolling-update:
         password: $KUBERNETES_PASSWORD
         insecure-skip-tls-verify: true
         command: rolling-update cities
-image: quay.io/jm3941/demo:$WERCKER_GIT_COMMIT
+        image: quay.io/jm3941/demo:$WERCKER_GIT_COMMIT
